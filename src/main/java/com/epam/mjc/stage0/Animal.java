@@ -22,7 +22,7 @@ public class Animal {
             pawStr = "paw";
         }
         if(hasFur) {
-            furStr = "";
+            furStr = " a";
         } else {
             furStr = " no";
         }

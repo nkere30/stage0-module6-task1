@@ -7,7 +7,7 @@ public class Bird extends Animal{
 
     @Override
     public String getDescription() {
-        Animal animal = new Animal();
+        Animal animal = new Animal("blue", 2, false);
         return animal.getDescription() + " Moreover, it has " + "2 wings and can fly.";
     }
 
